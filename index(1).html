@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <link rel="stylesheet" href="piyu.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="profile-header">
+            <img src="https://cdn-icons-png.flaticon.com/512/12225/12225935.png" alt="Profile Picture" class="profile-picture">
+            <h1 class="profile-name">Piyush Dixit</h1>
+            <p class="profile-title">cse student</p>
+            <p class="profile-bio">Passionate about creating beautiful, user-friendly interfaces with clean code. I specialize in Java oop and c programming.</p>
+            <div class="social-links">
+                <a href="https://github.com/Vesper-369" class="social-link"><i class="fab fa-github"></i></a>
+                <a href="https://www.instagram.com/_piyush_____13/" class="social-link"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="profile-stats">
+                <div class="stat-item">
+                    <div class="stat-number"></div>
+                    <div class="stat-label"></div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number"></div>
+                    <div class="stat-label"></div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number"></div>
+                    <div class="stat-label"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="profile-content">
+            <div class="profile-sidebar">
+                <div class="contact-info">
+                    <h3 class="section-title">Contact Info</h3>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <div class="contact-label">Email</div>
+                            <div class="contact-value">dixitpiyush2005@gmail.com</div>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <div class="contact-label">Phone</div>
+                            <div class="contact-value">+91 8275894149</div>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <div class="contact-label">Location</div>
+                            <div class="contact-value">Maharashtra,Kolhapur</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-section">
+                    <h3 class="section-title">Skills</h3>
+                    <div class="skills-list">
+                        <div class="skill">HTML5</div>
+                        <div class="skill">CSS3</div>
+                        <div class="skill">JavaScript</div>
+                        <div class="skill">C programming</div>
+                        <div class="skill">Python</div>
+                        <div class="skill">Java OOP</div>
+                        <div class="skill">C DSA</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="profile-main">
+                <div class="tabs">
+                    <div class="tab active" data-tab="about">About</div>
+                    <div class="tab" data-tab="experience">Qualifications</div>
+                    <div class="tab" data-tab="projects">Projects</div>
+                </div>
+
+                <div class="tab-content active" id="about">
+                    <h3 class="section-title">About Me</h3>
+                    <p>I'm a passionate frontend developer with creating modern web applications. My focus is on building intuitive user interfaces with clean, maintainable code.</p>
+                    <p>I believe in the power of design systems and component-based architecture to create scalable solutions. When I'm not coding, you can find me drawimg, reading about new technologies, or doing new projects.</p>
+                </div>
+
+                <div class="tab-content" id="experience">
+                    <h3 class="section-title">Qualifications</h3>
+                    <div class="experience-item">
+                        <div class="item-header">
+                            <div class="item-title">SSC</div>
+                            <div class="item-date">2020-21</div>
+                        </div>
+                        <div class="item-subtitle"><h2>SHRI BHUMIKA HIGH SCHOOL</h2></div>
+                        <div class="item-description">
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="experience-item">
+                        <div class="item-header">
+                            <div class="item-title">HSC</div>
+                            <div class="item-date">2021-23</div>
+                        </div>
+                        <div class="item-subtitle"><h2>SHRI BHUMIKA HIGHER SECONDARY </h2></div>
+                    </div>
+                    <div class="experience-item">
+                        <div class="item-header">
+                            <div class="item-title">DEGREE</div>
+                            <div class="item-date">2023-CURRENT</div>
+                        </div>
+                        <div class="item-subtitle"><h2>DY PATIL SCHOOL OF ENGINEERING AND MANAGEMENT</h2></div>
+                    </div>
+            </div>
+
+                <div class="tab-content" id="projects">
+                    <h3 class="section-title">Recent Projects</h3>
+                    <div class="projects-grid">
+                        <div class="project-card">
+                            <img src="https://via.placeholder.com/400x200" alt="Project 1" class="project-image">
+                            <div class="project-info">
+                                <h4 class="project-title">SchemeSearch</h4>
+                                <p class="project-description">A website to used to sort out available government schemes for individual</p>
+                                <div class="project-tags">
+                                    <span class="project-tag">HTML5</span>
+                                    <span class="project-tag">CSS3</span>
+                                    <span class="project-tag">JavaScript</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <img src="https://via.placeholder.com/400x200" alt="Project 2" class="project-image">
+                            <div class="project-info">
+                                <h4 class="project-title">Smart Street light</h4>
+                                <p class="project-description">Street lights which turn on/off sensing vehichle at a distance</p>
+                                <div class="project-tags">
+                                    <span class="project-tag">Arduino</span>
+                                    <span class="project-tag">IoT</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <button class="theme-toggle">
+        <i class="fas fa-moon"></i>
+    </button>
+
+    <script src="piyu.js"></script>
+</body>
+</html>
